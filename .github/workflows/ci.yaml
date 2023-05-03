@@ -1,6 +1,9 @@
 name: Github Actions Demo
 
-#on: [push]
+on:
+  push:
+    branches:
+      - main # filter
 
 jobs:
   my-first-job:
