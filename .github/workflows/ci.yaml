@@ -3,7 +3,7 @@ name: Github Actions Demo
 on:
   push:
     branches:
-      - main # filter
+      - dev
 
 jobs:
   my-first-job:
