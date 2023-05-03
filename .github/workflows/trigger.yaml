@@ -1,0 +1,13 @@
+name: trigger-demo
+
+on:
+  push:
+    branches:
+      - main # filter
+
+jobs:
+  trigger-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo hello
+        run: echo "Hello"
